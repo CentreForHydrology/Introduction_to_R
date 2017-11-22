@@ -153,7 +153,6 @@ plot(CalgaryDailyPrecip$realdate, CalgaryDailyPrecip$precip, xlab = "",
      ylab = "Daily precipitaion (mm)", pch = 20, col = 'blue')
 
 #' ggplot2 graphing
-
 annual <- read.csv("PrarieAnnualPrecip.csv")
 summary(annual)
 head(annual)

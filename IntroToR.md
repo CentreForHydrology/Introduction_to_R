@@ -12,12 +12,6 @@ Objectives
   - Future seminars will cover details of how to use R
 - Will be giving a live demonstration of some of the capabilities of R
 
-Reproducible research
-========================================================
-- Need to know what you did, and to be able to re-do it
-- Have to justify your results
-- Need to be able to re-do work due to changes or mistakes  
-
 Typical research workflow:
 ========================================================
 - Reading in data (text files, databases, .xls)
@@ -28,6 +22,12 @@ Typical research workflow:
 - Exporting data for other programs to use
 - Creating publication graphs
 - Writing a paper/thesis
+
+Reproducible research
+========================================================
+- Need to know what you did, and to be able to re-do it
+- Have to justify your results
+- Need to be able to re-do work due to changes or mistakes  
 
 What is R?
 ========================================================
@@ -89,7 +89,7 @@ Graphing
 
 GIS
 ========================================================
-- R can do very sophisticated GIS analyses
+- R can do very sophisticated GIS analyses  
 ![](http://spatialanalysis.co.uk/wp-content/uploads/2012/02/bike_ggplot.png)
 
 Getting R
@@ -283,6 +283,20 @@ https://cran.r-project.org/doc/contrib/Owen-TheRGuide.pdf
 
 The R Reference Index:  
 https://cran.r-project.org/doc/manuals/r-release/fullrefman.pdf  
+
+Centre for Hydrology R packages
+========================================================
+- There are several R packages developed for accessing/processing data  
+
+|package| functions|
+|-------|-----|
+| CRHMr| pre- and post- processing for CRHM|
+| MSCr| reads MSC data|
+| Reanalysis| reads gridded reanalysis data|
+| WISKIr | reads from WISKI database|
+| HYDAT | reads WSC HYDAT data |
+
+- all available at https://github.com/CentreForHydrology
 
 This presentation
 ========================================================
