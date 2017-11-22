@@ -65,8 +65,8 @@ CalgaryDailyPrecip <- read.csv("CalgaryDailyPrecip.csv",
 #' get info about a data frame
 head(CalgaryDailyPrecip)
 summary(CalgaryDailyPrecip)
-nrow(CalgaryDailyPrecip)
-ncol(CalgaryDailyPrecip)   # number of col
+nrow(CalgaryDailyPrecip)   # number of rows
+ncol(CalgaryDailyPrecip)   # number of columns
 names(CalgaryDailyPrecip)  # names inside the data frame
 
 #' convert from 0.1 mm to mm
@@ -79,7 +79,7 @@ mean(na.omit(CalgaryDailyPrecip$precip))
 
 #' convert date string to a real date
 CalgaryDailyPrecip$realdate <- as.Date(CalgaryDailyPrecip$date, 
-                                       format = "%d/%m/%Y")
+                                       format = "%Y-%m-%d")
 head(CalgaryDailyPrecip)
 summary(CalgaryDailyPrecip)
 
@@ -224,4 +224,5 @@ p6
 #' save plot
 ggsave('DensityPlot.png')
 
-# Final slides
+#' Final slides
+

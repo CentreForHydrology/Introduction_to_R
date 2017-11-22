@@ -58,11 +58,13 @@ Statistics
 - R is the standard program for statistical analyses
 - Widely used for teaching statistics
 - Can do any type of statistical analyses that you need   
+
+
 ![](https://us.sagepub.com/sites/default/files/upm-binaries/styles/sage_thumbnail_width_150px/feed/73998_9781446200469.jpg) 
-![](https://images-na.ssl-images-amazon.com/images/I/51xMTly1NaL._SX329_BO1,204,203,200_.jpg) 
 ![](https://images.springer.com/sgw/books/medium/9780387790534.jpg)
 ![](https://images.springer.com/sgw/books/medium/9780387262093.jpg)
-![](http://media.wiley.com/product_data/coverImage300/84/11199652/1119965284.jpg)
+<img src="https://images-na.ssl-images-amazon.com/images/I/51xMTly1NaL._SX329_BO1,204,203,200_.jpg" width=150 height=200>
+
 
 Data crunching
 ========================================================
