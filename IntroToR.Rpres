@@ -5,7 +5,6 @@ date: November 23, 2017
 autosize: true
 css: style.css
 
-
 Objectives
 ========================================================
 - To explain what R is, and what it can be used for
@@ -277,3 +276,4 @@ This presentation
 ========================================================
 - All of the files for this presentation can be downloaded from
 https://github.com/CentreForHydrology/Introduction_to_R
+

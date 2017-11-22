@@ -1,5 +1,5 @@
-# This code from ??
-
+# This code by Gergely Daróczi
+# from https://gist.github.com/daroczig/3cf06d6db4be2bbe3368
 
 CRAN_page <- function(...) {
   file.path('https://cran.rstudio.com/src/contrib', ...)
