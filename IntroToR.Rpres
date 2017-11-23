@@ -10,7 +10,7 @@ Objectives
 - To explain what R is, and what it can be used for
   - Will focus on *why* and *what*, rather than *how*
   - Future seminars will cover details of how to use R
-- Will be giving a live demonstration of some of the capabilities of R
+  - Will be giving a live demonstration of some of the capabilities of R
 
 Typical research workflow:
 ========================================================
@@ -32,8 +32,8 @@ Reproducible research
 What is R?
 ========================================================
 - R began as a statistical programming language
-- It's now a general-purpose scientific program
-- R allows you to write scripts to automate your work
+  - It's now a general-purpose scientific program
+  - R allows you to write scripts to automate your work
 - Can combine text, equations, R code, output and figures in a single output document
   - Creates automatically-updated documents
   - Results in self-documenting, reproducible research
@@ -46,7 +46,7 @@ Why "R"?
 
 Why use R?
 ========================================================
-- Excellent for statistics, advanced data processing and graphing
+- Excellent for statistics, data manipulation and graphing
 - Free Open Source Software
   - Can see, test and verify the source code
 - Uses standard file formats - no lock-in

@@ -46,8 +46,6 @@ a[-1]
 #' subset by value
 a > 15
 a[ a > 15]
-evens <- a[(a %% 2) == 0]
-evens
 
 #' commands
 mean(a)
@@ -65,9 +63,6 @@ CalgaryDailyPrecip <- read.csv("CalgaryDailyPrecip.csv",
 #' get info about a data frame
 head(CalgaryDailyPrecip)
 summary(CalgaryDailyPrecip)
-nrow(CalgaryDailyPrecip)   # number of rows
-ncol(CalgaryDailyPrecip)   # number of columns
-names(CalgaryDailyPrecip)  # names inside the data frame
 
 #' convert from 0.1 mm to mm
 CalgaryDailyPrecip$precip <- CalgaryDailyPrecip$precip/10
