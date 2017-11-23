@@ -142,16 +142,6 @@ model <- lm(totalprecip~year, CalgaryYearlyPrecip)
 summary(model)
 coef(model)
 
-
-# Graphing slides
-
-#' built-in graphing
-plot(CalgaryDailyPrecip$realdate, CalgaryDailyPrecip$precip)
-
-#' change plot - requires replotting
-plot(CalgaryDailyPrecip$realdate, CalgaryDailyPrecip$precip, xlab = "",
-     ylab = "Daily precipitaion (mm)", pch = 20, col = 'blue')
-
 #' ggplot2 graphing
 annual <- read.csv("PrarieAnnualPrecip.csv")
 summary(annual)

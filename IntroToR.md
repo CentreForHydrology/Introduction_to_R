@@ -2,8 +2,6 @@ Introduction To R
 ========================================================
 author: Kevin Shook
 date: November 23, 2017
-autosize: true
-css: style.css
 
 Objectives
 ========================================================
@@ -63,7 +61,6 @@ Statistics
 ![](https://us.sagepub.com/sites/default/files/upm-binaries/styles/sage_thumbnail_width_150px/feed/73998_9781446200469.jpg) 
 ![](https://images.springer.com/sgw/books/medium/9780387790534.jpg)
 ![](https://images.springer.com/sgw/books/medium/9780387262093.jpg)
-<img src="https://images-na.ssl-images-amazon.com/images/I/51xMTly1NaL._SX329_BO1,204,203,200_.jpg" width=150 height=200>
 
 
 Data crunching
@@ -77,19 +74,16 @@ Data crunching
 
 Graphing
 ========================================================
-- R is arguably the best program for scientific graphing  
-
-![](RadarPrecip_201405290130.png)  
-
-***  
-
-![](BigPondLoop1_700.png)  
-![](SCRB_46.png)
+- R is arguably the best program for scientific graphing 
+![](/home/kevin/data/projects/R_training/Introduction_to_R/RadarPrecip_201405290130.png) 
+![](/home/kevin/data/projects/R_training/Introduction_to_R/BigPondLoop1_700.png) 
+![](/home/kevin/data/projects/R_training/Introduction_to_R/SCRB_46.png)
 
 
 GIS
 ========================================================
 - R can do very sophisticated GIS analyses  
+
 ![](http://spatialanalysis.co.uk/wp-content/uploads/2012/02/bike_ggplot.png)
 
 Getting R
@@ -103,8 +97,8 @@ Getting R
 
 Packages
 ========================================================
-- Enormous amount of R-code is available
-![](CRAN_packages.png)
+- Enormous amount of R-code is available 
+![](/home/kevin/data/projects/R_training/Introduction_to_R/CRAN_packages.png)
 
 
 R demonstration
@@ -127,8 +121,8 @@ plot(xvals, yvals, options)
 ```r
 plot(c(1,2,3), c(4,5,6), type="p", col="red", cex=2, pch=19)
 ```
-
-![plot of chunk unnamed-chunk-2](IntroToR-figure/unnamed-chunk-2-1.png)
+  
+![](/home/kevin/data/projects/R_training/Introduction_to_R/IntroToR-figure/unnamed-chunk-2-1.png)
 
 
 ggplot2
